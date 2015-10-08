@@ -7,7 +7,7 @@ describe 'base provider' do
   let(:test_class) { Class.new { extend VaqueroIo::ProviderPluginExtensions } }
   let(:providerfile) do
     Pathname.new(File.expand_path('../../../', __FILE__)) +
-        'vaquero_io_awschef' + 'lib/' + 'vaquero_io_awschef'
+      'vaquero_io_awschef' + 'lib/' + 'vaquero_io_awschef'
   end
 
   it '.version should return the version' do
