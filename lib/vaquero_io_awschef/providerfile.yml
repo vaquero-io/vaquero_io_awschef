@@ -1,0 +1,16 @@
+provider:
+
+  infrastructure:
+    - network
+    - compute
+
+  platform:
+    count:
+      type: integer
+      range: 1..40
+    cmserver:
+      type: URL
+    cmrunlist:
+      array:
+        type: string
+        match: '(role|recipe)\[([-_a-zA-Z0-9#]+)\]'
