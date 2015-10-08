@@ -5,6 +5,6 @@
 # vaquero_io_awschef
 Provision vm architecture on AWS with Chef configuration management
 
-### assumptions
+### under development - master does not yet do anything
 
 vm image has chef client already installed
